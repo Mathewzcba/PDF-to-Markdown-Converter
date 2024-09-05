@@ -25,27 +25,31 @@ Siga os passos abaixo para instalar e rodar o script no seu ambiente local:
 2. **Instale as dependências necessárias:**
 
 Certifique-se de ter o Python instalado e, em seguida, execute o comando:
-pip install pymupdf markdownify
+   
+    pip install pymupdf markdownify
 
-**🛠️ Uso**
-Depois de instalar as dependências, você pode converter seus PDFs em Markdown com o comando abaixo:
-python convert_pdf_to_md.py caminho/para/seu/arquivo.pdf caminho/para/seu/arquivo.md
+## 🛠️ Uso
+***Depois de instalar as dependências, você pode converter seus PDFs em Markdown com o comando abaixo:***
+   
+    python convert_pdf_to_md.py caminho/para/seu/arquivo.pdf caminho/para/seu/arquivo.md
 
-**Exemplo:**
+## Exemplo:
 Coloque o arquivo PDF no diretório do projeto ou insira o caminho completo do arquivo.
 Execute o comando acima substituindo caminho/para/seu/arquivo.pdf pelo nome ou caminho do seu arquivo PDF e caminho/para/seu/arquivo.md pelo nome ou caminho desejado para o arquivo .md.
-Exemplo de execução:
-python convert_pdf_to_md.py ArquiteturaLimpa.pdf ArquiteturaLimpa.md
+
+***Exemplo de execução:***
+   python convert_pdf_to_md.py ArquiteturaLimpa.pdf ArquiteturaLimpa.md
+   
 Isso vai gerar um arquivo Markdown formatado com base no conteúdo do PDF.
 
-**📁 Estrutura do Projeto***
+## 📁 Estrutura do Projeto
 pdf-to-markdown-converter/
 │
 ├── convert_pdf_to_md.py       # Script principal de conversão
 ├── README.md                  # Este arquivo!
 └── requirements.txt           # Dependências do projeto
 
-**🤝 Contribuindo**
+## 🤝 Contribuindo 
 Contribuições são sempre bem-vindas! Se você quiser sugerir melhorias, detectar problemas ou adicionar novos recursos, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Fork o projeto
